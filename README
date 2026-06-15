@@ -1,0 +1,22 @@
+
+# Plant Disease Identification using PyTorch
+
+An interactive web application built with Streamlit and PyTorch that identifies plant diseases from leaf images. The application uses a ResNet-34 deep learning model to classify the uploaded images and output prediction probabilities.
+
+## Features
+* **Deep Learning Powered**: Utilizes a trained ResNet-34 PyTorch model (`plantDisease-resnet34.pth`) for accurate predictions.
+* **Interactive UI**: An easy-to-use Streamlit web interface for seamless image uploads.
+* **Real-time Inference**: Automatically resizes and normalizes input images before outputting class probabilities.
+* **Hardware Aware**: Automatically detects and runs on a GPU (CUDA) if available, otherwise defaults to CPU.
+
+## Prerequisites
+
+Make sure you have Python installed. You will need the following libraries to run this project:
+* `torch`
+* `torchvision`
+* `streamlit`
+* `Pillow`
+
+You can install the dependencies using pip:
+```bash
+pip install torch torchvision streamlit pillow
